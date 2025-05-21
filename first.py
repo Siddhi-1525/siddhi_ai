@@ -12,3 +12,6 @@ df['Date']=pd.to_datetime(df['Date'])
 st.dataframe(df)
 
 st.bar_chart(data=df,x="Date" ,y="Total Amount",use_container_width=True)
+
+
+
